@@ -1,0 +1,82 @@
+.App {
+  background-color: #e3e9ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 0;
+  color: white;
+}
+.header {
+  background-color: #af7eeb;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+a {
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: #7e51b6;
+  color: white;
+}
+.icons {
+  width: 15px;
+}
+.icon {
+  display: flex;
+  gap: 15px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+  padding: 15px 0;
+}
+.mainList {
+  background-color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  position: inherit;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.list:nth-last-of-type(-n + 1) {
+  border: none;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #7e51b6;
+  padding: 15px;
+}
+.list:last-child {
+  padding-bottom: 20px;
+}
+button {
+  border: none;
+  padding: 15px 40px;
+  background-color: #af7eeb;
+  color: white;
+  border-radius: 30px;
+  position: relative;
+  top: -40px;
+  margin: 0 auto;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+.checked {
+  text-decoration: line-through;
+}
+.displayNone {
+  display: none;
+}
